@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E93124E19E0B5F100B89869 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E93124D19E0B5F100B89869 /* main.cpp */; };
 		9E93125019E0B5F100B89869 /* RouteFinding.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9E93124F19E0B5F100B89869 /* RouteFinding.1 */; };
+		9E93125819E0B60500B89869 /* Domain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9E93125619E0B60500B89869 /* Domain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9E85FE6519E3220400A8549F /* BFS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BFS.h; path = ../BFS.h; sourceTree = "<group>"; };
 		9E93124A19E0B5F100B89869 /* RouteFinding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RouteFinding; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E93124D19E0B5F100B89869 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		9E93124F19E0B5F100B89869 /* RouteFinding.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = RouteFinding.1; sourceTree = "<group>"; };
+		9E93125619E0B60500B89869 /* Domain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Domain.cpp; sourceTree = "<group>"; };
+		9E93125719E0B60500B89869 /* Domain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Domain.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,10 @@
 		9E93124C19E0B5F100B89869 /* RouteFinding */ = {
 			isa = PBXGroup;
 			children = (
+				9E85FE6519E3220400A8549F /* BFS.h */,
 				9E93124D19E0B5F100B89869 /* main.cpp */,
+				9E93125619E0B60500B89869 /* Domain.cpp */,
+				9E93125719E0B60500B89869 /* Domain.h */,
 				9E93124F19E0B5F100B89869 /* RouteFinding.1 */,
 			);
 			path = RouteFinding;
@@ -118,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E93124E19E0B5F100B89869 /* main.cpp in Sources */,
+				9E93125819E0B60500B89869 /* Domain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +224,7 @@
 				9E93125519E0B5F100B89869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
